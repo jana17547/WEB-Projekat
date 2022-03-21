@@ -1,0 +1,33 @@
+Auto Skola
+
+Opis projekta:
+
+Aplikacija se koristi kao evidencija u auto skolama.
+U gornjem, pocetnom delu aplikacije postoji opcija za selekciju trenutne auto skole.
+Sledeca opcija je selekcija prikaza (3 prikaza):
+
+1. Kategorije
+ -Prikazuje kategorije u izabranoj auto skoli.
+  Postoji opcija za selekciju kategorija.
+  Takodje se prikaziju informacije o selektovanoj kategoriji(naziv, cena) i
+  informacije o instruktoru za tu kategoriju.
+  Zatm, postoji opcija za dodavanje nove kategorije, brisanje kategorije, izmena cene kategorije,
+  zamena instruktora za kategoriju, 
+  ispis kandidata sa kategorije, upis poena kandidatu nakon polozene kategorije.
+  Sa desne strane je tabela za prikaz informacija o kandidatima koji su upisani na izabranoj kategoriji.
+
+
+2. Kandidati
+  -Postoji forma za dodavanje novog kandidata.
+   Selekcija kategorija za upis kandidata, mogucnost pretrage kandidata na osnovu jmbg-a, brisanje kandidata,
+   prikaz kandidata bez kategorije.
+   Sa desne strane je tabela za prikaz kandidata(po default-u je prikaz kandidata koji nisu upisani na kategoriji).
+    
+3. Instruktori
+   -Postoji forma za dodavanje novog instruktora i opcija za brisanje instruktora (moguce brisanje samo ako ne drzi nijednu kategoriju).
+    Sa desne strane je tabela za prikaz instruktora u auto skoli (ime, prezime, broj kategorija koje drzi),
+    takodje i prikaz instruktora koji ne drze nijednu kategoriju.
+
+
+
+

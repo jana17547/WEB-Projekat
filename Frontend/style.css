@@ -1,0 +1,229 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+.pocetnaPrikaz {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9w;
+}
+.barNaslov {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: grey;
+}
+
+.sredina {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.sadrzaj {
+  padding-top: 7px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-grow: 2;
+}
+.red {
+  justify-content: right;
+  display: flex;
+  flex-direction: row;
+}
+.navigacija {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.divInfo {
+  padding-top: 6px;
+  padding-bottom: 2px;
+}
+.divKontrola > label.lblKontrola:not(:first-child) {
+  padding-left: 4px;
+}
+
+.kontrola {
+  background-color: bisque;
+  float: left;
+  width: 20%;
+}
+.divKontrola {
+  align-items: center;
+}
+.divKontrola > input.tbxKontrola {
+  min-height: 25px;
+  font: inherit;
+}
+.selectKontrola {
+  width: 100%;
+  background-color: #ffffff;
+}
+.tbxKontrola {
+  margin-left: auto;
+}
+.btnKontrola {
+  width: 100%;
+  /* padding-top: 100px; */
+  /* padding: 10px; */
+  /* height: 100%; */
+}
+.divTabela {
+  background-color: bisque;
+  float: left;
+  padding-left: 10px;
+  width: 78%;
+}
+.lblKontrolaNaslov {
+  font-size: 130%;
+}
+body {
+  background-color: bisque;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: black;
+}
+.divKontrola {
+  padding-bottom: 4px;
+}
+.btnKontrola {
+  background: #ffffff;
+  color: black;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 16px;
+  transition: 0.6s;
+  padding: 8px;
+}
+.btnKontrola:not(:last-child) {
+  margin-right: 4px;
+}
+.btnKontrola:hover {
+  background: rgb(66, 66, 66);
+}
+.divNaslov {
+  display: flex;
+  background: rgb(255, 255, 255);
+  flex-grow: 1;
+  justify-content: center;
+}
+.lblNaslov {
+  font-size: 2rem;
+  font-weight: 900;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font: inherit;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  /* min-width: 400px; */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.redUTabeli {
+  transition: 0.6s;
+  height: 50px;
+  font: inherit;
+  text-align: center;
+  border: 1px solid black;
+}
+.selektovanRed {
+  background-color: rgb(155, 155, 207);
+  color: #ffffff;
+}
+.redUTabeli:nth-child(even):not(.selektovanRed):not(:hover) {
+  background: rgb(211, 211, 211);
+}
+.redUTabeli:nth-child(odd):not(.selektovanRed):not(:hover) {
+  background: rgb(211, 211, 211);
+}
+.redUTabeli:hover:not(.selektovanRed) {
+  background: rgb(66, 66, 66);
+  cursor: pointer;
+}
+.selectKontrola {
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding: 8px;
+  border: none;
+  font-size: 120%;
+  cursor: pointer;
+  transition: 0.6s;
+}
+.selectKontrola:hover {
+  background: rgb(182, 182, 182);
+}
+option {
+  cursor: pointer;
+}
+.divKontrola:has(.lblKontrolaNaslov) {
+  background: rgb(184, 184, 184);
+}
+.zaglavlje {
+  background: rgb(0, 0, 0);
+  color: white;
+  height: 60px;
+}
+.lblbarNaslov {
+  background: rgb(66, 66, 66);
+  color: white;
+  /* padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 5%;
+  padding-right: 5%; */
+}
+.divKontrolaNaslov {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+}
+/* .donjiBar {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: end;
+  color: rgb(0, 36, 68);
+  font-size: 0.8rem;
+} */
+/* resposive */
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+  
+.kontrola {
+  background-color: lightblue;
+  width: 100%;
+}
+.divKontrola {
+  align-items: center;
+}
+.divKontrola > input.tbxKontrola {
+  font: inherit;
+}
+.selectKontrola {
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.btnKontrola {
+  width: 100%;
+
+}
+.divTabela {
+  background-color: white;
+  float: left;
+  width: 100%;
+  padding: 0;
+}
+
+}
